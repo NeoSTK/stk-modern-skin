@@ -64,6 +64,8 @@ when the border that intersect at this corner are enabled.
 
 <skin name="Modern" author="LCP and QwertyChouskie">
 
+<menumusic name="main_theme_modern.music" />
+
 <!--
 Here you can configure advanced theming rules for this skin
 Currently STK supports:
@@ -81,7 +83,7 @@ all types of ttf.
           color_emoji_ttf="www.ttf"/>
 -->
 <advanced icon_theme="y"
-          normal_ttf="Inter-UI-Black.ttf FZZDHK.TTF NotoSansThai-Black.ttf NotoSansHebrew-Black.ttf NotoSansArabicUI-Black.ttf"/>
+          normal_ttf="Inter-UI-Black.ttf Reeji-CloudHeiChaoCu-GBK.ttf AdobeGothicStd-Bold-Korean.otf NotoSansThai-Black.ttf NotoSansHebrew-Black.ttf NotoSansArabicUI-Black.ttf"/>
 
 <!--  Stateless -->
 <element type="background" image="background.jpg" />
@@ -139,35 +141,35 @@ all types of ttf.
       
       
 <element type="tab" state="neutral" image="tab.png"
-      left_border="40" right_border="40" top_border="10" bottom_border="10"
-      preserve_h_aspect_ratios="false" hborder_out_portion="0" vborder_out_portion="0"
-      h_inner_padding="0.06" v_inner_padding="0.1" h_margin="0.0" v_margin="0.0" />
+      left_border="44" right_border="44" top_border="28" bottom_border="28"
+      preserve_h_aspect_ratios="false" hborder_out_portion="0.0" vborder_out_portion="0.0"
+      h_inner_padding="0" v_inner_padding="-12" h_margin="0" v_margin="0" />
       
 <element type="tab" state="focused" image="tab_focus.png"
-      left_border="40" right_border="40" top_border="10" bottom_border="10"
-      preserve_h_aspect_ratios="false" hborder_out_portion="0" vborder_out_portion="0"
-      h_inner_padding="0.06" v_inner_padding="0.1" h_margin="0.0" v_margin="0.0" />
+      left_border="44" right_border="44" top_border="28" bottom_border="28"
+      preserve_h_aspect_ratios="false" hborder_out_portion="0.0" vborder_out_portion="0.0"
+      h_inner_padding="0" v_inner_padding="-12" h_margin="0" v_margin="0" />
 
 <element type="tab" state="down" image="tab.png"
-      left_border="40" right_border="40" top_border="10" bottom_border="10"
-      preserve_h_aspect_ratios="false" hborder_out_portion="0" vborder_out_portion="0"
-      h_inner_padding="0.06" v_inner_padding="0.1" h_margin="0.0" v_margin="0.0" />
+      left_border="44" right_border="44" top_border="28" bottom_border="28"
+      preserve_h_aspect_ratios="false" hborder_out_portion="0.0" vborder_out_portion="0.0"
+      h_inner_padding="0" v_inner_padding="-12" h_margin="0" v_margin="0" />
 
 
 <element type="verticalTab" state="neutral" image="tab_vert.png"
-      left_border="40" right_border="40" top_border="12" bottom_border="12"
+      left_border="45" right_border="45" top_border="12" bottom_border="12"
       hborder_out_portion="0.0" vborder_out_portion="0.0"
-      h_inner_padding="-8" v_inner_padding="0" h_margin="0" v_margin="4" />
+      h_inner_padding="-2" v_inner_padding="-2" h_margin="0" v_margin="4" />
       
 <element type="verticalTab" state="focused" image="tab_vert_focus.png"
-      left_border="40" right_border="40" top_border="12" bottom_border="12"
+      left_border="45" right_border="45" top_border="12" bottom_border="12"
       hborder_out_portion="0.0" vborder_out_portion="0.0"
-      h_inner_padding="-8" v_inner_padding="0" h_margin="0" v_margin="4" />
+      h_inner_padding="-2" v_inner_padding="-2" h_margin="0" v_margin="4" />
 
-<element type="verticalTab" state="down" image="tab_vert_down.png"
-      left_border="40" right_border="40" top_border="12" bottom_border="12"
+<element type="verticalTab" state="down" image="tab_vert.png"
+      left_border="45" right_border="45" top_border="12" bottom_border="12"
       hborder_out_portion="0.0" vborder_out_portion="0.0"
-      h_inner_padding="-8" v_inner_padding="0" h_margin="0" v_margin="4" />
+      h_inner_padding="-2" v_inner_padding="-2" h_margin="0" v_margin="4" />
 
 <!-- Stateless -->
 <element type="squareFocusHaloBW" common="y" image="glass_square_focused_bw.png"
@@ -289,7 +291,7 @@ all types of ttf.
 
 <!-- Stateless -->
 <element type="window" image="dialog.png"
-      left_border="7" right_border="7" top_border="7" bottom_border="7"
+      left_border="7" right_border="7" top_border="50" bottom_border="50"
       hborder_out_portion="1.0" vborder_out_portion="0.2" />
 
 <!-- Stateless -->
