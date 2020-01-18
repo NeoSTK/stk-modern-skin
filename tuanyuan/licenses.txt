@@ -1,0 +1,19 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: SuperTuxKart
+Upstream-Contact:
+ Marianne Gagnon <auria.mg@gmail.com>
+ Jean-Manuel Clémençon <sam.un@protonmail.com>
+Source: https://supertuxkart.net
+
+Files:
+ glass_iconhighlight_focus.png
+ bubble.png
+ table_header*
+Copyright: ???
+License: CC-BY-SA 3.0
+Comment: From peach skin
+
+Files: *
+Copyright: Copyright 2018-2019 LCP and QwertyChouskie
+License: CC-BY-SA 4.0
+Comment: Original style and some elements by LCP, skin finished by QwertyChouskie
